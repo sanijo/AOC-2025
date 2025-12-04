@@ -12,7 +12,7 @@ import (
 
 func Part2() {
 	// open ./input.csv file
-	f, err := os.Open("input.csv")
+	f, err := os.Open("input-test.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
